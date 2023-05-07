@@ -1,0 +1,8 @@
+number = []
+num = int(input("Enter How many numbers"))
+i=0
+for i in range(num):
+    x = int(input("Enter Number"))
+    number.append(x)
+print("Created a List through Numbers",number)
+print("Sum of number through List",sum(number))
