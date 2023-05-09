@@ -10,4 +10,4 @@ for i in range(len(inputList)):
     if(inputList[i]>largeNumber):
         largeNumber = inputList[i]
         position = i
-print("This is the largest element", largeNumber,"and position of number",position )
+print("This is largest element", largeNumber,"which is found at position",position )
